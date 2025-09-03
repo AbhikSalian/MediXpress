@@ -1,0 +1,299 @@
+{
+  "owners": [
+    {
+      "id": 1,
+      "name": "Dr. Sharma",
+      "email": "owner@sharma.com",
+      "password": "Hb123456",
+      "shop": {
+        "name": "Sunrise Pharmacy",
+        "pincode": "110001",
+        "address": "123 Market Road, New Delhi",
+        "phone": "9876543210",
+        "hours": "9:00 AM - 9:00 PM",
+        "acceptingOrders": true,
+        "coverageKm": 5,
+        "logoUrl": ""
+      }
+    },
+    {
+      "id": 2,
+      "name": "Dr. Priya Patel",
+      "email": "owner@priya.com",
+      "password": "123456",
+      "shop": {
+        "name": "HealthCare Pharmacy",
+        "pincode": "400001",
+        "address": "456 MG Road, Mumbai",
+        "phone": "9876543211",
+        "hours": "8:00 AM - 10:00 PM",
+        "acceptingOrders": true,
+        "coverageKm": 3,
+        "logoUrl": ""
+      }
+    },
+    {
+      "id": 3,
+      "name": "Harsh Bhardwaj",
+      "email": "bhardwaj@gmail.com",
+      "password": "Hb1234",
+      "shop": {
+        "name": "Bhardwaj Medical Store",
+        "address": "Kadubeesanahalli",
+        "phone": "8945345456",
+        "hours": "9:00 AM - 9:00 PM",
+        "acceptingOrders": true,
+        "coverageKm": 5,
+        "logoUrl": "",
+        "pincode": "570103"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Bhardwaj",
+      "email": "owner@gmail.com",
+      "password": "Hb12345",
+      "shop": {
+        "name": "New Medical Store",
+        "pincode": "570103",
+        "address": "Kadubeesanahalli ",
+        "phone": "8903453454",
+        "hours": "9:00 AM - 9:00 PM",
+        "acceptingOrders": true,
+        "coverageKm": 5,
+        "logoUrl": ""
+      }
+    }
+  ],
+  "productMaster": [
+    {
+      "id": 101,
+      "name": "Paracetamol 500mg",
+      "brand": "Cipla",
+      "form": "Tablet",
+      "category": "Pain Relief"
+    },
+    {
+      "id": 102,
+      "name": "Amoxicillin 250mg",
+      "brand": "Sun Pharma",
+      "form": "Capsule",
+      "category": "Antibiotic"
+    },
+    {
+      "id": 103,
+      "name": "Cetirizine 10mg",
+      "brand": "Dr. Reddy's",
+      "form": "Tablet",
+      "category": "Antihistamine"
+    },
+    {
+      "id": 104,
+      "name": "Ibuprofen 400mg",
+      "brand": "Lupin",
+      "form": "Tablet",
+      "category": "Pain Relief"
+    },
+    {
+      "id": 105,
+      "name": "Azithromycin 500mg",
+      "brand": "Zydus",
+      "form": "Tablet",
+      "category": "Antibiotic"
+    },
+    {
+      "id": 106,
+      "name": "Omeprazole 20mg",
+      "brand": "Torrent",
+      "form": "Capsule",
+      "category": "Gastro"
+    },
+    {
+      "id": 107,
+      "name": "Metformin 500mg",
+      "brand": "USV",
+      "form": "Tablet",
+      "category": "Diabetes"
+    },
+    {
+      "id": 108,
+      "name": "Atorvastatin 10mg",
+      "brand": "Ranbaxy",
+      "form": "Tablet",
+      "category": "Cardiovascular"
+    },
+    {
+      "id": 109,
+      "name": "Salbutamol 100mcg",
+      "brand": "GSK",
+      "form": "Inhaler",
+      "category": "Respiratory"
+    },
+    {
+      "id": 110,
+      "name": "Pantoprazole 40mg",
+      "brand": "Alkem",
+      "form": "Tablet",
+      "category": "Gastro"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "productMasterId": 101,
+      "mrp": 50,
+      "discount": 10,
+      "discountedPrice": 45,
+      "stock": 100,
+      "expiryDate": "2026-12-31"
+    },
+    {
+      "id": 2,
+      "ownerId": 1,
+      "productMasterId": 102,
+      "mrp": 80,
+      "discount": 15,
+      "discountedPrice": 68,
+      "stock": 50,
+      "expiryDate": "2025-10-15"
+    },
+    {
+      "id": 3,
+      "ownerId": 2,
+      "productMasterId": 103,
+      "mrp": 25,
+      "discount": 5,
+      "discountedPrice": 23.75,
+      "stock": 75,
+      "expiryDate": "2026-06-30"
+    },
+    {
+      "id": 4,
+      "ownerId": 1,
+      "productMasterId": 104,
+      "mrp": 60,
+      "discount": 20,
+      "discountedPrice": 48,
+      "stock": 30,
+      "expiryDate": "2026-03-15"
+    },
+    {
+      "id": 5,
+      "ownerId": 2,
+      "productMasterId": 105,
+      "mrp": 120,
+      "discount": 8,
+      "discountedPrice": 110.4,
+      "stock": 40,
+      "expiryDate": "2025-12-20"
+    },
+    {
+      "productMasterId": 109,
+      "mrp": 56,
+      "discount": 5,
+      "stock": 55,
+      "expiryDate": "2029-05-25",
+      "ownerId": 1,
+      "discountedPrice": 53.2,
+      "id": 1756404175699
+    },
+    {
+      "productMasterId": 101,
+      "mrp": 65,
+      "discount": 5,
+      "stock": 48,
+      "expiryDate": "2030-12-12",
+      "ownerId": 3,
+      "discountedPrice": 61.75,
+      "id": 1756404889946
+    },
+    {
+      "productMasterId": 102,
+      "mrp": 25,
+      "discount": 10,
+      "stock": 78,
+      "expiryDate": "2030-02-05",
+      "ownerId": 4,
+      "discountedPrice": 22.5,
+      "id": 1756405857254
+    }
+  ],
+  "orders": [
+    {
+      "id": 1001,
+      "ownerId": 1,
+      "customer": {
+        "name": "Amit Kumar",
+        "phone": "9876543210",
+        "address": "12 CP Market, New Delhi 110001"
+      },
+      "items": [
+        {
+          "productId": 1,
+          "productMasterId": 101,
+          "name": "Paracetamol 500mg",
+          "qty": 2,
+          "mrp": 50,
+          "discountedPrice": 45
+        }
+      ],
+      "total": 90,
+      "paymentStatus": "Pending",
+      "status": "Pending",
+      "createdAt": "2025-08-28T10:00:00Z"
+    },
+    {
+      "id": 1002,
+      "ownerId": 2,
+      "customer": {
+        "name": "Priya Sharma",
+        "phone": "9876543211",
+        "address": "45 Bandra West, Mumbai 400050"
+      },
+      "items": [
+        {
+          "productId": 3,
+          "productMasterId": 103,
+          "name": "Cetirizine 10mg",
+          "qty": 1,
+          "mrp": 25,
+          "discountedPrice": 23.75
+        }
+      ],
+      "total": 23.75,
+      "paymentStatus": "Paid",
+      "status": "Delivered",
+      "createdAt": "2025-08-27T14:30:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "ownerId": 1,
+      "type": "order",
+      "title": "New order received",
+      "message": "Order #1001 from Amit Kumar",
+      "read": false,
+      "createdAt": "2025-08-28T10:00:00Z"
+    },
+    {
+      "id": 2,
+      "ownerId": 1,
+      "type": "stock",
+      "title": "Low stock alert",
+      "message": "Ibuprofen 400mg stock is running low (30 remaining)",
+      "read": false,
+      "createdAt": "2025-08-28T08:30:00Z"
+    },
+    {
+      "id": 3,
+      "ownerId": 2,
+      "type": "order",
+      "title": "Order delivered",
+      "message": "Order #1002 has been delivered to Priya Sharma",
+      "read": true,
+      "createdAt": "2025-08-27T16:00:00Z"
+    }
+  ]
+}
